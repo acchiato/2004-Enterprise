@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Result Page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="../static/styles/bootstrap.min.css" rel="stylesheet">
+
+        <link href="../static/styles/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="../static/styles/templatemo-topic-listing.css" rel="stylesheet">
+
+    </head>
+    
+    <body id="top">
+
+        <main>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="bi-back"></i>
+                        <span>MyGardner</span>
+                    </a>
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+
+            <header class="site-header d-flex flex-column justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-5 col-12 mb-5">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="/">Homepage</a></li>
+
+                                    <li class="breadcrumb-item active" aria-current="page">Result Page</li>
+                                </ol>
+                            </nav>
+                            <h2 class="text-white">{{ result['Disease'] }}</h2>
+                        </div>
+                        <div class="col-lg-5 col-12">
+                            <div class="topics-detail-block bg-white shadow-lg">
+                                <img src="{{ result['Image'] }}" class="topics-detail-block-image img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="topics-detail-section section-padding" id="topics-detail">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-12 m-auto">
+<h3 class="mb-4">Disease Details</h3>
+    <h3 class="mb-4">Cause</h3>
+    <p>{{ result['Cause'] }}</p>
+    <h3 class="mb-4">Symptoms</h3>
+    <p>{{ result['Symptoms'] }}</p>
+    <h3 class="mb-4">Treatment</h3>
+    <p>{{ result['Treatment'] }}</p>
+</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+		
+        <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2" href="index.html">
+                            <i class="bi-back"></i>
+                            <span>MyGardner</span>
+                        </a>
+                    </div>
+                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
+                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>   
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/custom.js"></script>
+
+        <script>
+            result['disease'] = result['disease'].replace("_", " ").capitalize()
+        </script>
+
+    </body>
+</html>

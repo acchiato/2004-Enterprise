@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content>
+        <meta name="author" content>
+        <title>MyGardner</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap"
+            rel="stylesheet">
+        <link href="../static/styles/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/styles/bootstrap-icons.css" rel="stylesheet">
+        <link href="../static/styles/templatemo-topic-listing.css"
+            rel="stylesheet">
+    </head>
+
+    <body id="top">
+        <main>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="Home_Page.html">
+                        <i class="bi-back"></i>
+                        <span>MyGardner</span>
+                    </a>
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top"
+                            class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                </div>
+            </nav>
+
+            <section
+                class="hero-section d-flex justify-content-center align-items-center"
+                id="section_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h1 class="text-center">Discover. Learn. Enjoy</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-block custom-block-overlay">
+                                <div class="d-flex flex-column h-100">
+                                    <img
+                                        src="../static/images/background.jpg"
+                                        class="custom-block-image img-fluid" alt/>
+                                    <div
+                                        class="custom-block-overlay-text d-flex">
+                                        <div>
+                                            <p class="text-white">With a simple
+                                                image upload, you can receive
+                                                instant insights into potential
+                                                diseases affecting your plants</p>
+
+                                            <form
+                                                action="{{ url_for('predict') }}"
+                                                method="POST"
+                                                enctype=multipart/form-data
+                                                class="custom-form mt-4 pt-2 mb-lg-0 mb-5"
+                                                role="search">
+                                                <div
+                                                    class="input-group-data">
+                                                    <input type="file"
+                                                        name="file"
+                                                        class="form-control-file"
+                                                        id="inputImage"
+                                                        onchange=previewImage(event)
+                                                        required>
+                                                    <br />
+                                                    <button type="submit"
+                                                        class="form-control">
+                                                        Predict</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="section-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="explore-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">
+                                MyGardner Plants</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-12">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active"
+                                id="design-tab-pane" role="tabpanel"
+                                aria-labelledby="design-tab" tabindex="0">
+                                <div class="row">
+                                    <div id="test1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2"
+                            href="index.html">
+                            <i class="bi-back"></i>
+                            <span>MyGardner</span>
+                        </a>
+                    </div>
+                    <p class="copyright-text mt-lg-5 mt-4">Copyright
+                        ©
+                        2023 MyGardner. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script>
+                function previewImage(event) {
+                  var reader = new FileReader();
+                  reader.onload = function () {
+                    var output = document.getElementById('output-image')
+                    output.src = reader.result;
+                  }
+                  reader.readAsDataURL(event.target.files[0]);
+                }
+              </script>
+        <script>
+                var Usrdata = document.querySelector('.box');
+
+var userDetail = [
+    {name:"Stawberry Plant",avatar:"../static/images/stawberry.jpg"},
+    {name:"Apple Plant",avatar:"../static/images/apple.jpg"},
+    {name:"Corn Plant",avatar:"../static/images/corn.jpeg"},
+    {name:"Blueberry Plant",avatar:"../static/images/blueberry.jpg"},
+    {name:"Grape Plant",avatar:"../static/images/grape.jpg"},
+    {name:"Peach Plant",avatar:"../static/images/peach.jpg"},
+    {name:"Tomato Plant",avatar:"../static/images/tomatoe.jpg"},
+    {name:"Rasberry Plant",avatar:"../static/images/rasberry.jpg"},
+    {name:"Potato Plant",avatar:"../static/images/potato.jpeg"},
+    {name:"Pepper Plant",avatar:"../static/images/pepper.jpg"},
+
+]
+
+document.getElementById('test1').outerHTML = userDetail.map(user => 
+    `<div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">${user.name}</h5>
+                                                        </div>
+                                                    </div>
+                                                    <img src=${user.avatar} class="custom-block-image img-fluid" alt="">
+                                            </div>
+                                        </div>`
+).join('')
+              </script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+
+</html>

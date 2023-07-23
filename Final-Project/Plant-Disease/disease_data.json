@@ -1,0 +1,160 @@
+ 
+{
+    "Apple___Apple_scab": {
+        "Cause": "Apple scab overwinters primarily in fallen leaves and in the soil. Disease development is favored by wet, cool weather that generally occurs in spring and early summer. Fungal spores are carried by wind, rain, or splashing water from the ground to flowers, leaves, or fruit.",
+        "Symptoms": "Circular, scaly lesions develop on apple fruits, leaves, and twigs. Severe infections can cause leaf distortion and premature defoliation.",
+        "Treatment": "Choose resistant apple varieties, remove infected leaves, and apply fungicides as recommended.",
+        "Image":"https://i.ibb.co/Xx3WzRn/apple.jpg"
+    },
+        "Apple___Black_Rot": {
+        "Cause": "Apple black rot is caused by the fungus Botryosphaeria obtusa. The disease develops in warm and wet conditions.",
+        "Symptoms": "Circular, expanding lesions with concentric rings develop on fruits and leaves. Infected fruits rot, and twig cankers may form.",
+        "Treatment": "Pruning and destroying infected plant parts, applying appropriate fungicides, and practicing proper sanitation are key management strategies for apple black rot.",
+        "Image":"https://i.ibb.co/Xx3WzRn/apple.jpg"
+        },
+        "Apple___Cedar_apple_rust": {
+            "Cause": "Cedar apple rust is caused by the fungus Gymnosporangium juniperi-virginianae. It requires both apple and cedar or juniper trees to complete its life cycle.",
+            "Symptoms": "Bright orange-yellow spots appear on leaves, fruits, and twigs. Galls may form on juniper hosts.",
+            "Treatment": "Managing cedar apple rust involves pruning and destroying infected juniper hosts, using disease-resistant apple varieties, and applying appropriate fungicides.",
+            "Image":"https://i.ibb.co/Xx3WzRn/apple.jpg"
+            },
+            "Cherry___Powdery_Mildew": {
+            "Cause": "Cherry powdery mildew is caused by the fungus Podosphaera clandestina. It thrives in warm and humid conditions.",
+            "Symptoms": "Powdery white patches develop on leaves, shoot distortion may occur, and fruit quality can be reduced.",
+            "Treatment": "Applying fungicides labeled for cherry powdery mildew control, practicing good air circulation and plant spacing, and removing infected plant material can help manage the disease.",
+            "Image":"https://i.ibb.co/rKPSMWW/cherry.jpg"
+        },
+            "Corn___Cercospora_Leaf_Gray_Spot": {
+            "Cause": "Cercospora leaf gray spot is caused by the fungus Cercospora zeae-maydis. Warm and humid weather promotes disease development.",
+            "Symptoms": "Grayish-brown lesions with yellow halos develop on corn leaves, leading to premature leaf death.",
+            "Treatment": "Crop rotation, planting resistant corn varieties, and applying appropriate fungicides can help manage cercospora leaf gray spot.",
+            "Images":"https://i.ibb.co/F5qtCGj/corn.jpg"
+            },
+            "Pepper,___Bell_Bacterial_spot": {
+                "Cause": "Bacterial spot affects bell peppers and is caused by the bacterium Xanthomonas spp. It thrives in warm and humid conditions.",
+                "Symptoms": "Dark, water-soaked spots appear on the leaves, fruits, and stems of infected pepper plants. Lesions may have yellow halos.",
+                "Treatment": "Similar to peach bacterial spot, managing this disease involves using copper-based sprays, choosing resistant pepper varieties, and maintaining proper sanitation practices.",
+                "Image":"https://i.ibb.co/q78sBDF/pepper.jpg"
+                },
+                "Potato___Early_blight": {
+                "Cause": "Early blight is caused by the fungus Alternaria solani. Warm and humid conditions promote disease development.",
+                "Symptoms": "Lower leaves of potato plants develop dark brown lesions with concentric rings. Leaves may yellow and die prematurely, reducing tuber yield.",
+                "Treatment": "Fungicide applications can help control early blight. Proper crop rotation, avoiding overhead irrigation, and removing infected plant material can also prevent the disease from spreading.",
+                "Image":"https://i.ibb.co/txt8gJ1/potato.jpg"
+                },
+                "Potato___Late_blight": {
+                "Cause": "Late blight is caused by the oomycete Phytophthora infestans. Cool and wet conditions favor disease development.",
+                "Symptoms": "Dark, water-soaked lesions appear on potato leaves, often accompanied by white fungal growth on the undersides. Tubers may rot and become inedible.",
+                "Treatment": "Fungicide applications are crucial for managing late blight, especially during periods of high humidity. Using resistant potato varieties, maintaining good ventilation, and removing infected plant material can also help control the disease.",
+                "Image":"https://i.ibb.co/txt8gJ1/potato.jpg"
+                },
+                "Squash___Powdery_mildew": {
+                "Cause": "Powdery mildew is caused by the fungus Podosphaera xanthii. Warm and dry conditions promote disease development.",
+                "Symptoms": "Infected squash plants develop a white, powdery fungal growth on the upper surfaces of leaves. Leaves may curl, turn yellow, and eventually die.",
+                "Treatment": "Managing powdery mildew involves applying fungicides labeled for powdery mildew control. Regular monitoring, proper plant spacing, and providing adequate air circulation can help prevent the disease. Removing infected leaves can also limit its spread.",
+                "Images":"https://i.ibb.co/1fhhzLY/Powdery-mildew.jpg"
+                },
+                "Strawberry___Leaf_scorch": {
+                "Cause": "Leaf scorch in strawberries can be caused by various factors, including fungal pathogens (e.g., Diplocarpon earlianum) and environmental stressors.",
+                "Symptoms": "Browning and necrosis of strawberry leaves, often starting from the leaf edges. Infected leaves may wither and die prematurely.",
+                "Treatment": "Proper sanitation practices, removing infected plant material, and providing optimal growing conditions can help manage leaf scorch. Fungicide applications may be necessary for fungal-induced leaf scorch.",
+                "Image":"https://i.ibb.co/WHz6BPW/stawberry2.jpg"
+                
+            },
+                "Tomato___Bacterial_spot": {
+                    "Cause": "Bacterial spot is caused by several species of bacteria, including Xanthomonas spp. It thrives in warm and humid conditions.",
+                    "Symptoms": "Dark, water-soaked spots with a yellow halo appear on the leaves, stems, and fruits of infected tomato plants.",
+                    "Treatment": "Managing bacterial spot involves using copper-based sprays, practicing proper sanitation, and selecting resistant tomato varieties.",
+                    "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                },
+                    "Tomato___Early_blight": {
+                    "Cause": "Early blight is caused by the fungus Alternaria solani. Warm and humid conditions promote disease development.",
+                    "Symptoms": "Brown lesions with concentric rings develop on the lower leaves of tomato plants. Leaves may yellow and wither.",
+                    "Treatment": "Fungicide applications, proper plant spacing, and regular removal of infected plant material can help manage early blight.",
+                    "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                },
+                    "Tomato___Late_blight": {
+                    "Cause": "Late blight is caused by the oomycete Phytophthora infestans. Cool and wet conditions favor disease development.",
+                    "Symptoms": "Dark, water-soaked lesions with white fungal growth appear on tomato leaves. Fruits may also develop lesions and rot.",
+                    "Treatment": "Fungicide applications, proper plant spacing, and removing infected plant material can help control late blight.",
+                    "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                    },
+                    "Tomato___Leaf_mold": {
+                    "Cause": "Leaf mold is caused by the fungus Passalora fulva. Warm and humid conditions promote disease development.",
+                    "Symptoms": "Yellowing and chlorotic spots appear on the upper surface of tomato leaves. A fuzzy gray mold may develop on the underside.",
+                    "Treatment": "Fungicide applications and providing good air circulation can help manage leaf mold. Avoid overhead irrigation and remove infected leaves.",
+                    "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                    },
+                    "Tomato___Septoria_Leaf_spot": {
+                    "Cause": "Septoria leaf spot is caused by the fungus Septoria lycopersici. Warm and humid conditions favor disease development.",
+                    "Symptoms": "Small, dark spots with a gray center and yellow halo appear on tomato leaves. Spots may coalesce and cause defoliation.",
+                    "Treatment": "Fungicide applications, removing infected plant material, and practicing good sanitation can help control septoria leaf spot.",
+                    "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                    },
+                    "Tomato___Spider_Mites_Two-Spotted_spider_mite": {
+                        "Cause": "Two-spotted spider mites (Tetranychus urticae) are tiny arachnids that feed on the underside of tomato leaves. They thrive in hot and dry conditions.",
+                        "Symptoms": "Infested tomato plants show yellowing, stippling, and bronzing of leaves. Fine webbing may be visible on the undersides of leaves.",
+                        "Treatment": "Managing spider mites involves regular monitoring, spraying plants with a strong stream of water to dislodge mites, and applying appropriate miticides.",
+                        "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                        },
+                        "Tomato___Target_spot": {
+                        "Cause": "Target spot is caused by the fungus Corynespora cassiicola. Warm and humid conditions promote disease development.",
+                        "Symptoms": "Circular lesions with concentric rings appear on tomato leaves. Lesions may have a target-like appearance.",
+                        "Treatment": "Fungicide applications, proper plant spacing, and removing infected plant material can help manage target spot.",
+                        "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                        },
+                        "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+                        "Cause": "Tomato yellow leaf curl virus (TYLCV) is transmitted by the whitefly Bemisia tabaci. It affects tomatoes in warm and tropical regions.",
+                        "Symptoms": "Tomato plants show leaf curling, yellowing, stunting, and reduced fruit production.",
+                        "Treatment": "Managing TYLCV involves controlling whiteflies through insecticides, using reflective mulches to repel insects, and planting resistant tomato varieties.",
+                        "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                        },
+                        "Tomato___Tomato_Mosaic_Virus": {
+                        "Cause": "Tomato mosaic virus (ToMV) is caused by a virus from the genus Tobamovirus. It can be spread through contaminated tools, hands, and insects.",
+                        "Symptoms": "Infected tomato plants exhibit mosaic patterns, leaf distortion, stunted growth, and reduced fruit quality.",
+                        "Treatment": "There is no cure for TMV. Preventing the virus through proper sanitation, using virus-free seedlings, and controlling insect vectors can help manage the disease.",
+                        "Image":"https://i.ibb.co/Sd3XxPr/tomatoe.jpg"
+                        },"Corn_(maize)___Common_rust_": {
+                            "Cause": "Common rust is caused by the fungus Puccinia sorghi. Warm and humid conditions favor its development.",
+                            "Symptoms": "Small, raised orange pustules appear on corn leaves, causing yellowing and reduced photosynthesis.",
+                            "Treatment": "Planting resistant corn varieties, removing infected plant debris, and applying fungicides can help manage common rust.",
+                            "Image":"https://i.ibb.co/F5qtCGj/corn.jpg"
+                            },
+                            "Corn___Northern_Leaf_blight": {
+                            "Cause": "Northern leaf blight is caused by the fungus Exserohilum turcicum. It thrives in warm and humid conditions.",
+                            "Symptoms": "Elongated, tan lesions with wavy margins develop on corn leaves, leading to premature leaf death.",
+                            "Treatment": "Planting resistant corn varieties, practicing good crop rotation, and applying appropriate fungicides can help manage northern leaf blight.",
+                            "Image":"https://i.ibb.co/F5qtCGj/corn.jpg"
+                            },
+                            "Grape___Black_rot": {
+                            "Cause": "Grape black rot is caused by the fungus Guignardia bidwellii. Warm and wet weather promotes disease development.",
+                            "Symptoms": "Brown, circular lesions develop on grape leaves and fruits. Infected berries may shrivel, and cankers can form on stems.",
+                            "Treatment": "Pruning and removing infected plant material, applying appropriate fungicides, and practicing good canopy management can help manage grape black rot.",
+                            "Image":"https://i.ibb.co/sJdqz9N/grape.jpg"
+                        },
+                            "Grape___Esca_black_measles": {
+                            "Cause": "Esca black measles is caused by various fungi, including Phaeomoniella chlamydospora and Phaeoacremonium spp. The disease is favored by warm and dry conditions.",
+                            "Symptoms": "Dark, necrotic spots with black dots appear on grape leaves, wilting of shoots and clusters may occur.",
+                            "Treatment": "Pruning and removing infected wood, applying appropriate fungicides, and practicing proper vineyard sanitation are key management strategies for esca black measles.",
+                            "Image":"https://i.ibb.co/sJdqz9N/grape.jpg"
+                            },
+                            "Grape___Leaf_blight_(Isariopsis)": {
+                            "Cause": "Grape leaf blight caused by the fungus Isariopsis spp. It thrives in warm and humid conditions.",
+                            "Symptoms": "Brown spots with yellow halos develop on grape leaves, leading to defoliation and reduced fruit quality.",
+                            "Treatment": "Applying appropriate fungicides, practicing good canopy management, and removing infected plant material can help manage grape leaf blight.",
+                            "Image":"https://i.ibb.co/sJdqz9N/grape.jpg"
+                            },
+                            "Orange___Huanglongbing_(Citrus Greening)": {
+                            "Cause": "Huanglongbing, also known as citrus greening, is caused by the bacterium Candidatus Liberibacter spp. It is primarily spread by insect vectors.",
+                            "Symptoms": "Yellowing of leaves, lopsided or misshapen fruits, decline in overall tree health.",
+                            "Treatment": "There is no cure for citrus greening. Integrated pest management practices, such as controlling vector insects, removing infected trees, and promoting overall tree health, are important for disease management.",
+                            "Image":"https://i.ibb.co/YW9HSQt/orange.jpg"
+                            },
+                            "Peach___Bacterial_spot": {
+                            "Cause": "Bacterial spot is caused by the bacterium Xanthomonas arboricola pv. pruni. Warm and wet conditions favor disease development.",
+                            "Symptoms": "Infected peach trees develop dark, water-soaked spots on leaves and fruits. The spots may have yellow halos around them.",
+                            "Treatment": "Management involves applying copper-based sprays during the dormant season and regular intervals during the growing season. Pruning infected branches and practicing good sanitation by removing fallen leaves and fruits can also help control the disease.",
+                            "Image":"https://i.ibb.co/tsxmxFM/peach.jpg"
+                            }
+    
+}
