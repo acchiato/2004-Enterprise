@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify, request, Markup
+from flask import Flask, render_template, request
 from model import predict_image
 # import utils
 import json
@@ -35,4 +35,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
